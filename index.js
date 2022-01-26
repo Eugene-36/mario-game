@@ -152,6 +152,8 @@ addEventListener('keydown', ({ keyCode }) => {
   }
 });
 
+console.log('check');
+
 addEventListener('keyup', ({ keyCode }) => {
   switch (keyCode) {
     case 65:
